@@ -3,7 +3,8 @@ Create a class MyDate with day, month and year as members.
 Write appropriate member functions. 
 Create another class Employee, which has id, name, date of birth, date of joining and salary as members (use MyDate for date fields).
 Write appropriate constructor for the Employee which assigns values to the members.
-Accept the details as command line arguments and create a Employee object using the arguments. Display the payslip details in a proper format.
+Accept the details as command line arguments and create a Employee object using the arguments.
+Display the payslip details in a proper format.
 */
 
 class MyDate {
