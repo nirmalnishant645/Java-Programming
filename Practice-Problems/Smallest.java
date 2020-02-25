@@ -1,6 +1,6 @@
 /*
 Write a Java Program to find the k smallest elements in a given array.
-Elements in the array can be in any order.
+Elements in the array can be in any order
 */
 
 import java.util.*;
