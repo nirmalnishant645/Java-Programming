@@ -10,11 +10,11 @@ public class LandCalculation {
     public static void main(String [] args) {
 
         // Declare Variables
-        final double oneAcre = 43560; // square feer
+        final double ONE_ACRE = 43560; // square feer
         double givenSize =  389767; // in square feet
         double numberOfAcres;
 
-        numberOfAcres = givenSize / oneAcre;
+        numberOfAcres = givenSize / ONE_ACRE;
         System.out.print(numberOfAcres + " acres");
     }
 }
