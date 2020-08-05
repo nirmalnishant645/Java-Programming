@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b1ff134-2da1-4a43-a0a9-07aac18aa6e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/challenges/BodyMassIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/challenges/TestScoresAndGrade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.challenges.BodyMassIndex" />
+      <option name="MAIN_CLASS_NAME" value="com.challenges.TestScoresAndGrade" />
       <module name="Decision-Structures" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -91,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596604746207</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Body Mass Index">
+      <created>1596651149126</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596651149126</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,36 +116,45 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Decision Structures" />
     <MESSAGE value="Magic Dates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Magic Dates" />
+    <MESSAGE value="Body Mass Index" />
+    <option name="LAST_COMMIT_MESSAGE" value="Body Mass Index" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="141" y="55" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596650862862">
+    <state x="141" y="55" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596652048477">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="141" y="55" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1596650862862" />
-    <state x="415" y="202" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1596650859909">
+    <state x="141" y="55" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1596652048477" />
+    <state x="415" y="202" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1596652045970">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="415" y="202" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1366.741@0.27.1366.741" timestamp="1596650859909" />
-    <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1596650949550">
+    <state x="415" y="202" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1366.741@0.27.1366.741" timestamp="1596652045970" />
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1596652109361">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1596650949550" />
-    <state width="1320" height="172" key="GridCell.Tab.0.center" timestamp="1596650949550">
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1596652109361" />
+    <state width="1320" height="172" key="GridCell.Tab.0.center" timestamp="1596652109358">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1596650949550" />
-    <state width="1320" height="172" key="GridCell.Tab.0.left" timestamp="1596650949549">
+    <state width="1320" height="172" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1596652109358" />
+    <state width="1320" height="172" key="GridCell.Tab.0.left" timestamp="1596652109357">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1596650949549" />
-    <state width="1320" height="172" key="GridCell.Tab.0.right" timestamp="1596650949550">
+    <state width="1320" height="172" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1596652109357" />
+    <state width="1320" height="172" key="GridCell.Tab.0.right" timestamp="1596652109360">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1596650949550" />
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596604755696">
+    <state width="1320" height="172" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1596652109360" />
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596651155028">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1596604755696" />
+    <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1596651155028" />
+    <state x="347" y="174" key="run.anything.popup" timestamp="1596651442013">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1596651442013" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1596651209544">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1596651209544" />
   </component>
 </project>
