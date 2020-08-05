@@ -39,19 +39,19 @@ public class TestScoresAndGrade {
         avg = (scoreOne + scoreTwo + scoreThree) / 3;
 
         if(avg < 60) {
-            System.out.println("The average is " + avg +". The grade is F.");
+            System.out.printf("The average is %.0f. The grade is F.", avg);
         }
         else if(avg < 70) {
-            System.out.println("The average is " + avg +". The grade is D.");
+            System.out.printf("The average is %.0f. The grade is D.", avg);
         }
         else if(avg < 80) {
-            System.out.println("The average is " + avg + ". The grade is C");
+            System.out.printf("The average is %.0f. The grade is C", avg);
         }
         else if(avg < 90) {
-            System.out.println("The average is " + avg + ". The grade is B.");
+            System.out.printf("The average is %.0f. The grade is B.", avg);
         }
         else if(avg <= 100) {
-            System.out.println("The average is " + avg + ". The grade is A.");
+            System.out.printf("The average is %.0f. The grade is A.", avg);
         }
         else {
             System.out.println("Something went wrong! Invalid Average.");
